@@ -1,0 +1,175 @@
+body {
+
+	background-color:#333;
+	color:#fff;
+    background: url('../img/bg_tile.png') top center repeat transparent;
+
+    min-width:800px;
+
+    font-family: "Raleway","Open Sans", sans-serif;
+    font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: "Josefin Sans","Open Sans",serif;
+}
+
+
+a {
+	color:#933;
+}
+
+p {
+	margin:15px 8px;
+}
+
+
+h3.box_title {
+	padding:4px;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+	
+}
+
+strong {
+	font-size:1.05em;
+	margin:5px;
+}
+
+.screen {
+    background: url('../img/outlets.png') top center repeat transparent;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    z-index: 10;
+
+}
+
+#profile {
+	
+	margin:10px 1%;
+	padding:10px;
+	border:1px solid #000;
+}
+
+#left_column {
+	width:47%;
+	float:left;
+	margin:10px 1%;
+	border:1px solid #000;
+}
+
+#right_column {
+	width:47%;
+	float:right;
+	margin:10px 1%;
+	border:1px solid #000;
+}
+
+.box {
+	border:1px solid #000;
+}
+
+.box h3 {
+	background-color:#444;
+}
+
+.content h2 {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin-bottom:10px;
+
+}
+
+#submission {
+	display:block;
+	margin:20px auto;
+	border:1px solid #666;
+	padding:4px;
+}
+
+#submission_info {
+	margin:1%;
+	padding:1%;
+}
+
+.comment {
+
+	border:1px dotted #000;
+	margin:10px;
+}
+
+.big-error {
+	color:#933;
+	text-align:center;
+	display:block;
+	font-size:2em;
+}
+
+.footer{
+	clear:both;
+	border-top: 1px solid #999;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+
+.footer p {
+	float: right;
+	text-align: right;
+	font-size: 11px;
+	padding: 5px 10px 0 10px;
+	margin: 0px;
+}
+
+
+.content {
+    margin:20px 40px;
+    background-color:#222222;
+    padding:10px;
+    border-radius: 10px;
+    border-top: 5px solid #512;
+}
+
+.thumb.tall {
+    width: 75px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+    position:relative;
+
+    transition:1s;
+}
+
+.thumb.tall:hover {
+    margin-left:10px;
+    margin-right: 10px;
+
+    width:100px;
+}
+
+.thumb.tall .overflow_center {
+    position:absolute;
+    left:0px;
+    margin-left:-50%;
+    transition:1s;
+}
+
+.thumb.tall:hover .overflow_center {
+    width:100px;
+    margin-left:-25%;
+}
+
+.thumb.tall img {
+    display:block;
+    margin:auto;
+    height:200px;
+}

@@ -1,0 +1,28 @@
+@import url('style.css');
+@import url('header.css');
+@import url('dev.css');
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Josefin+Sans|Raleway|Dosis);
+
+
+
+
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+
+
+.hidden {
+    display:none;
+}
+
+.clear {
+    clear:both;
+}
