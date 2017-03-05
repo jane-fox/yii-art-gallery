@@ -1,4 +1,7 @@
 
+![Screenshot](https://github.com/jane-fox/yii-art-gallery/blob/master/screenshot.png) 
+
+
 Yii Art Gallery
 ====
 
